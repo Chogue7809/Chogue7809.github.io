@@ -1,0 +1,106 @@
+<
+    <!DOCTYPE html>
+    <html>
+        <head> 
+            <title>About Me</title>
+            <style>
+            h1 {
+                color: blue;
+            }   
+            h2 {
+                color: cyan;
+            }   
+            body {
+                color: cornsilk;
+            }
+            body {
+      background-color: rgb(0, 0, 0);
+    }
+            
+            
+                a:link, a:visited {
+                 background-color:deepskyblue;
+                 color: white;
+                padding: 14px 25px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+    }
+    
+    a:hover, a:active {
+      background-color: rgb(0, 255, 234);
+        </style
+        >
+        </head>
+
+        <body>
+            <h1 id="coding-project">Coding Project</h1>
+<ul>
+<li><h3 id="-here-is-a-madlib-program-i-created-in-c-"><strong>Here is a madlib program I created in C++</strong></h3>
+</li>
+</ul>
+<pre><code class="lang-c++"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;iostream&gt;</span></span>
+
+<span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;string&gt;</span></span>
+
+<span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> <span class="hljs-built_in">std</span>;
+
+<span class="hljs-built_in">string</span> instructor;
+<span class="hljs-built_in">string</span> name;
+<span class="hljs-built_in">string</span> food;
+<span class="hljs-keyword">int</span> num;
+<span class="hljs-built_in">string</span> adj;
+<span class="hljs-built_in">string</span> color;
+<span class="hljs-built_in">string</span> animal;
+
+
+<span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span>
+</span>{
+
+    <span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-string">"Enter the first or last name of your instructor: "</span>;
+    <span class="hljs-built_in">cin</span> &gt;&gt; instructor;
+    <span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-built_in">endl</span>;
+
+    <span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-string">"Enter your first name: "</span>;
+    <span class="hljs-built_in">cin</span> &gt;&gt; name;
+    <span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-built_in">endl</span>;
+
+    <span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-string">"Enter a food: "</span>;
+    <span class="hljs-built_in">cin</span> &gt;&gt; food;
+    <span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-built_in">endl</span>;
+
+    <span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-string">"Enter a number between 100 and 200: "</span>;
+    <span class="hljs-built_in">cin</span> &gt;&gt; num;    
+    <span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-built_in">endl</span>;
+
+    <span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-string">"Enter and adjective: "</span>;
+    <span class="hljs-built_in">cin</span> &gt;&gt; adj;
+    <span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-built_in">endl</span>;
+
+    <span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-string">"Enter a color: "</span>;
+    <span class="hljs-built_in">cin</span> &gt;&gt; color;
+    <span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-built_in">endl</span>;
+
+    <span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-string">"Enter an animal: "</span>;
+    <span class="hljs-built_in">cin</span> &gt;&gt; animal;
+    <span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-built_in">endl</span>;
+
+    <span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-string">"Dear Instructor "</span> &lt;&lt; instructor &lt;&lt; <span class="hljs-built_in">endl</span>;
+    <span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-string">" Im sorry that I am unable to turn in my homework now. First, I ate a rotten "</span> &lt;&lt; food &lt;&lt; <span class="hljs-string">", which "</span> &lt;&lt; <span class="hljs-built_in">endl</span>;
+    <span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-string">"made me turn "</span> &lt;&lt; color &lt;&lt; <span class="hljs-string">" and extremely ill. I came down with a fever of "</span> &lt;&lt; num &lt;&lt; <span class="hljs-string">". Next, "</span> &lt;&lt; <span class="hljs-built_in">endl</span>;
+    <span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-string">"my "</span> &lt;&lt; adj &lt;&lt; <span class="hljs-string">" pet "</span> &lt;&lt; animal &lt;&lt; <span class="hljs-string">" must have smelled the remains of the "</span> &lt;&lt; food &lt;&lt; <span class="hljs-string">" on my homework "</span> &lt;&lt; <span class="hljs-built_in">endl</span>;
+    <span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-string">"because he ate it. I am currently rewriting my homework and hope you will accept it late."</span> &lt;&lt; <span class="hljs-built_in">endl</span> &lt;&lt; <span class="hljs-built_in">endl</span>;
+
+    <span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-string">"Sincerely"</span> &lt;&lt; <span class="hljs-built_in">endl</span>;
+    <span class="hljs-built_in">cout</span> &lt;&lt; name &lt;&lt; <span class="hljs-built_in">endl</span> &lt;&lt; <span class="hljs-built_in">endl</span>;
+
+
+<span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;
+
+
+}
+</code></pre>
+<p>|<a href="index.html"><strong>Home</strong></a>|</p>
+    
+            
+        </body>
